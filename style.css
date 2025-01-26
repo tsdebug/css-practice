@@ -1,0 +1,140 @@
+a[href="https://www.google.com/"] {
+    color: black;
+}
+a[href="https://github.com/"]{
+    color: rgb(170, 0, 255);
+}
+#product + p {
+    color: darkorange;
+}
+article :first-child{
+    font-size: 140%;
+    font-style: italic;
+}
+
+p::after{
+    content: abc;
+}
+::selection{
+      background-color: rgb(255, 186, 223);
+}
+p::first-letter{
+    font-weight: bold;
+}
+
+#xyz p{
+    color: rgb(0, 59, 170);
+    font-size: 140%;
+    border: 1px solid black;
+}
+strong{
+    border: 1px solid black;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(245, 66, 66);
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(245, 66, 66, 0.4);
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient( to top, black ,violet, blue);
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(white, black);
+}
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid #54b2a9;
+    border-bottom: 50px solid transparent;
+  }
+.box5{
+    width: 200px;
+    height: 200px;
+    background: rgba(245, 66, 66, 0.4);
+    border: 10px, dotted, white;
+    box-shadow: 10px 10px 10px grey;
+    padding-left: 20px;
+}
+
+.box6{
+    width: 150px;
+    height: 150px;
+    background-color: #f79489;
+    padding-left: 20px;
+}
+h1{
+    color: #f9f1f0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.boxi{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    display: inline-block;
+}
+.boxii{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(102, 51, 153);
+    overflow: hidden scroll;
+}
+
+.boxes{
+    border: 3px solid lightgray;
+}
+.box-one{
+    background-color: gold;
+}
+.box-two{
+    background-color: tomato;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+}
+.box-three{
+    background-color: dodgerblue;
+}
+.box-four{
+    background-color: orchid;
+    position: relative;
+    left: -5rem;
+}
+.avatar{
+    width: 5rem;
+    height: 5rem;
+    background-color: brown;
+    float: left;
+    margin-right: 2px;
+}
+.clear{
+    clear:both ;
+}
+.tweet{
+    border: 3px solid lightgray;
+}
+body{
+    margin: 10px;
+}
+.container{
+    border: 3px solid lightgray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.boxx{
+    width: 10rem;
+    height: 10rem;
+    background: lightpink;
+    margin: 1.5rem;
+}
